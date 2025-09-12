@@ -1,0 +1,87 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+project/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Data ---
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.db
+*.sqlite3
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# FER2013 dataset
+fer2013.csv
+
+#models
+best_fer_resnet50.h5
+fer2013_resnet18.pth
+
+# Ignore all model files
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# --- Audio/Video ---
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.avi
+*.mov
+
+# --- Models / Checkpoints ---
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.sav
+
+# --- Logs & Outputs ---
+*.log
+*.out
+*.err
+*.tmp
+*.swp
+*.swo
+
+# --- System / IDE files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# --- Environment configs ---
+*.env
+.env.*
