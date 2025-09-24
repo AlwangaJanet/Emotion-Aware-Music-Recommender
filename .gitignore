@@ -44,6 +44,8 @@ fer2013.csv
 #models
 best_fer_resnet50.h5
 fer2013_resnet18.pth
+final_emotion_model.h5
+best_emotion_model.h5
 
 # Ignore all model files
 *.h5
@@ -85,3 +87,13 @@ Thumbs.db
 # --- Environment configs ---
 *.env
 .env.*
+
+# Ignore Word documents
+*.docx
+
+# Ignore logs and results
+logs/
+results/
+test/
+train/
+fast_results/
